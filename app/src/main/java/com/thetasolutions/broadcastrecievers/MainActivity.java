@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //create a dialog
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         AlertDialog alertDialog =alertDialogBuilder.create();
-
         //set components of dialog
         alertDialog.setTitle("WARNING!");
         alertDialog.setMessage("Do you want to close application");
